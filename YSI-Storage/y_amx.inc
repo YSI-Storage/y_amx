@@ -61,13 +61,13 @@ Changelog:
 // the two systems do things.  I fully admit that his is FAR more general but
 // there are legacy libraries to consider.
 
-#include "..\YSI-Internal\y_version"
+#include "..\YSI_Internal\y_version"
 
-#include "..\YSI-Server\y_scriptinit"
-//#include "..\YSI-Internal\y_funcinc"
-#include "..\YSI-Core\y_debug"
-#include "..\YSI-Internal\y_natives"
-#include "..\YSI-Core\y_cell"
+#include "..\YSI_Server\y_scriptinit"
+//#include "..\YSI_Internal\y_funcinc"
+#include "..\YSI_Core\y_debug"
+#include "..\YSI_Internal\y_natives"
+#include "..\YSI_Core\y_cell"
 
 #define AMX_FastString(%1,%2,%3,%4) \
 	(((%1) << 0) | ((%2) << 8) | ((%3) << 16) | ((%4) << 24))
